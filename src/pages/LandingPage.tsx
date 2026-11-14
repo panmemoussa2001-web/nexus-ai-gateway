@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { ArrowRight, CheckCircle2, Info, ShieldCheck, UserCheck } from 'lucide-react';
+import heroImage from '../assets/images/nexus_gateway_hero_1794580824725.jpg';
 import { NexusLogo } from '../components/NexusLogo';
 import { useNexus } from '../state/NexusContext';
 
-const HERO_IMAGE_PATH = '/src/assets/images/nexus_gateway_hero_1794580824725.jpg';
+const HERO_IMAGE_PATH = heroImage;
 
 export const LandingPage: React.FC = () => {
   const { navigate, settings, user, t } = useNexus();
