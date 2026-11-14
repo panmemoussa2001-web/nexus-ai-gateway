@@ -1,0 +1,6 @@
+{
+  "name": "NEXUS AI GATEWAY",
+  "description": "Enterprise AI agent governance, deterministic policy authorization, and action simulation prototype.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
